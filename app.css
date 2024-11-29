@@ -3,8 +3,8 @@
     height: 450px;
     width: 450px;
     position: relative;
-    left: 120px;
-    top: 75px;
+    left: 20px;
+    top: -9px;
     border-color: black;
     padding: 5px;
     text-decoration: none;
@@ -20,8 +20,8 @@ h2{
     height: 280px;
     width: 600px;
     position: relative;
-    left: 740px;
-    top: -390px;
+    left: 547px;
+    top: -496px;
     margin: 20px;
     padding: 25px;
     cursor: pointer;
@@ -33,8 +33,8 @@ h2{
     height: 200px;
     width: 600px;
     position: relative;
-    left: 740px;
-    top: -335px;
+    left: 549px;
+    top: -497px;
     margin: 20px;
     padding: 25px;
     cursor: pointer;
@@ -44,7 +44,7 @@ h2{
 #text{
     position: relative;
     right: 550px;
-    top: 90px;
+    top: -64px;
     text-decoration: underline;
 }
 h1{
@@ -213,9 +213,20 @@ button{
 select{
     position: relative;
     bottom: 1015px;
-    left: 1520px;
+    left: 1233px;
     padding: 10px;
     width: 200px;
     font-size: larger;
     background-color:moccasin;
+    bottom: 1122px;
+}
+#download{
+    position: absolute;
+    top: 645px;
+    left: 144px;
+    width: 146px;
+    font-weight: bolder;
+    font-size: 20px;
+    background-color: rgb(177, 56, 56);
+    color: white;
 }
