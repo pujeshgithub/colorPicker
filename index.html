@@ -1,0 +1,86 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Color Picker</title>
+    <link rel="stylesheet" href="app.css">
+</head>
+<body>
+    <h1>Color Picker</h1>
+    <h1 id="text">Write Here</h1>
+    <h2 class="mainContainer" id = "OwnText"  contenteditable="true"></h2>
+    
+    <div class="colorContainer">
+        <h2> Font Color</h2>
+        <button id="red" aria-label="Name" onclick="redBtn()"></button>
+        <button id="green" aria-label="Name" onclick="greenBtn()"></button>
+        <button id="blue" aria-label="Name" onclick="blueBtn()"></button>
+        <button id="brown" aria-label="Name" onclick="brownBtn()"></button>
+        <button id="violet" aria-label="Name" onclick="violetBtn()"></button>
+        <button id="yellow" aria-label="Name" onclick="yellowBtn()"></button>
+        <button id="pink" aria-label="Name" onclick="pinkBtn()"></button>
+        <button id="orange" aria-label="Name" onclick="orangeBtn()"></button>
+        <button id="darkgolden" aria-label="Name" onclick="darkgoldenBtn()"></button>
+        <button id="darkslateblue" aria-label="Name" onclick="darkslateblueBtn()"></button>
+        <button id="darkslategray" aria-label="Name" onclick="darkslategrayBtn()"></button>
+        <button id="darkcyan" aria-label="Name" onclick="darkcyanBtn()"></button>
+        <button id="darkgreen" aria-label="Name" onclick="darkgreenBtn()"></button>
+        <button id="maroon" aria-label="Name" onclick="maroonBtn()"></button>
+        <button id="crimson" aria-label="Name" onclick="crimsonBtn()"></button>
+        <button id="yellowgreen" aria-label="Name" onclick="yellowgreenBtn()"></button>
+        <button id="chocolate" aria-label="Name" onclick="chocolateBtn()"></button>
+        <button id="teal" aria-label="Name" onclick="tealBtn()"></button>
+        <button id="darkmagenta" aria-label="Name" onclick="darkmagentaBtn()"></button>
+        <button id="chartreuse" aria-label="Name" onclick="chartreuseBtn()"></button>
+        <button id="gold" aria-label="Name" onclick="goldBtn()"></button>
+        <button id="fuchsia" aria-label="Name" onclick="fuchsiaBtn()"></button>
+        <button id="aqua" aria-label="Name" onclick="aquaBtn()"></button>
+        <button id="olivedrab" aria-label="Name" onclick="olivedrabBtn()"></button>
+    </div>
+    <div class="backGroundContainer">
+        <h2>BackGround Colors</h2>
+        <button id="lightblue" onclick="lightblueBtn()"></button>
+        <button id="lightcoral" onclick="lightcoralBtn()"></button>
+        <button id="lightslategray" onclick="lightslategrayBtn()"></button>
+        <button id="lightseagreen" onclick="lightseagreenBtn()"></button>
+        <button id="lightslategrey" onclick="lightslategreyBtn()"></button>
+        <button id="lightsalmon" onclick="lightsalmonBtn()"></button>
+        <button id="lightgreen" onclick="lightgreenBtn()"></button>
+        <button id="mediumpurple" onclick="mediumpurpleBtn()"></button>
+        <button id="mediumturquoise" onclick="mediumturquoiseBtn()"></button>
+        <button id="wheat" onclick="wheatBtn()"></button>
+        <button id="thistle" onclick="thistleBtn()"></button>
+        <button id="peru" onclick="peruBtn()"></button>
+        <button id="palevioletred" onclick="palevioletredBtn()"></button>
+        <button id="rosybrown" onclick="rosybrownBtn()"></button>
+        <button id="dodgerblue" onclick="dodgerblueBtn()"></button>
+        <button id="slateblue" onclick="slateblueBtn()"></button>
+    </div>
+    
+    <select name="fontStyle" id="fstyle" onchange="algerian()">
+        <option value="">Select Font Style</option>
+        <option value="algerian">Algerian</option>
+        <option value="Agency_FB">Agency FB</option>
+        <option value="Kunstler_Script">Kunstler Script</option>
+        <option value="Old_English_Text_MT">Old English Text MT</option>
+        <option value="Times_New_Roman">Times New Roman</option>
+        <option value="Ink_Free">Ink Free</option>
+        <option value="Wide_Latin">Wide Latin</option>
+        <option value="Goudy_Stout">Goudy Stout</option>
+        <option value="Viner_Hand_ITC">Viner Hand ITC</option>
+        <option value="Vladimir_Script">Vladimir Script</option>
+        <option value="Snap_ITC">Snap ITC</option>
+        <option value="Rage_Italic">Rage Italic</option>
+        <option value="Goudy_Stout">Goudy Stout</option>
+        <option value="Eras_Bold ITC">Eras Bold ITC</option>
+        <option value="Joker_man">Jokerman</option>
+        <option value="Script_MT Bold">Script MT Bold</option>
+        <option value="Franklin_Gothic Demi Cond">Franklin Gothic Demi Cond</option>
+        <option value="Matura_MT Script Capitals">Matura MT Script Capitals</option>
+        <option value="Imprint_MT Shadow">Imprint MT Shadow</option>
+    </select>
+
+</body>
+<script src="script.js"></script>
+</html>

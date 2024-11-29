@@ -1,0 +1,221 @@
+.mainContainer{
+    border: 2px solid;
+    height: 450px;
+    width: 450px;
+    position: relative;
+    left: 120px;
+    top: 75px;
+    border-color: black;
+    padding: 5px;
+    text-decoration: none;
+    cursor:pointer;
+
+}
+h2{
+    text-align: center;
+    text-decoration: underline;
+}
+.colorContainer{
+    border: 2px solid;
+    height: 280px;
+    width: 600px;
+    position: relative;
+    left: 740px;
+    top: -390px;
+    margin: 20px;
+    padding: 25px;
+    cursor: pointer;
+    background-color: khaki;
+
+}
+.backGroundContainer{
+    border: 2px solid;
+    height: 200px;
+    width: 600px;
+    position: relative;
+    left: 740px;
+    top: -335px;
+    margin: 20px;
+    padding: 25px;
+    cursor: pointer;
+    background-color: khaki;
+    
+}
+#text{
+    position: relative;
+    right: 550px;
+    top: 90px;
+    text-decoration: underline;
+}
+h1{
+    text-align: center;
+    text-decoration: underline;
+}
+body{
+    background-color: plum;
+}
+button{
+    border: 2px solid;
+    height: 55px;
+    width: 60px;
+    margin: 5px;
+    border-radius: 20%;
+    cursor: pointer;
+}
+#red{
+    border: 2px solid;
+    height: 55px;
+    width: 60px;
+    margin: 5px;
+    border-radius: 50%;
+    background-color: red;
+}
+#green, #blue, #brown, #violet, #yellow, #pink, #orange, #darkgolden, #darkslateblue, #darkslategray, #darkcyan, #darkgreen, #maroon, #crimson, #yellowgreen, #chocolate, #teal, #darkmagenta, #chartreuse, #gold, #fuchsia, #aqua, #olivedrab {
+    border: 2px solid;
+    height: 55px;
+    width: 60px;
+    margin: 5px;
+    border-radius: 50%;
+    cursor: pointer;
+    
+}
+#green{
+    background-color: green;
+   
+}
+#blue{
+    background-color: blue;
+}
+#brown{
+    background-color: brown;
+}
+#violet{
+    background-color: violet;
+}
+#yellow{
+    background-color: yellow;
+}
+#pink{
+    background-color: pink;
+}
+#orange{
+    background-color: orange;
+}
+#darkcyan{
+    background-color: darkcyan;
+}
+#darkgolden{
+    background-color: darkgoldenrod;
+}
+#darkslateblue{
+    background-color: darkslateblue;
+}
+#darkslategray{
+    background-color: darkslategrey;
+}
+#darkgreen{
+    background-color: darkgreen;
+}
+#maroon{
+    background-color: maroon;
+}
+#crimson{
+    background-color: crimson;
+}
+#yellowgreen{
+    background-color: yellowgreen;
+}
+#chocolate{
+    background-color: chocolate;
+}
+#teal{
+    background-color: teal;
+}
+#darkmagenta{
+    background-color: darkmagenta;
+}
+#chartreuse{
+    background-color: chartreuse;
+}
+#gold{
+    background-color: gold;
+}
+#fuchsia{
+    background-color: fuchsia;
+}
+#aqua{
+    background-color: aqua;
+}
+#olivedrab{
+    background-color: olivedrab;
+}
+#lightblue, #lightcoral, #lightslategray, #lightseagreen, #lightslategrey, #lightsalmon, #lightgreen, #slateblue, #mediumpurple, #mediumturquoise, #slateblue, #wheat, #thistle, #peru, #palevioletred, #rosybrown, #dodgerblue{
+    padding: 20px;
+}
+#lightblue{
+    background-color: lightblue;
+}
+#lightcoral{
+    background-color: lightcoral;
+}
+#lightslategray{
+    background-color: lightslategray;
+}
+#lightseagreen{
+    background-color: lightseagreen;
+}
+#lightslategrey{
+    background-color: lightslategrey;
+}
+#lightsalmon{
+    background-color: lightsalmon;
+}
+#lightgreen{
+    background-color: lightgreen;
+}
+#mediumpurple{
+    background-color: mediumpurple;
+}
+#mediumturquoise{
+    background-color: mediumturquoise;
+}
+#slateblue{
+    background-color: slateblue;
+}
+#wheat{
+    background-color: wheat;
+}
+#thistle{
+    background-color: thistle;
+}
+#peru{
+    background-color: peru;
+}
+#palevioletred{
+    background-color: palevioletred;
+}
+#rosybrown{
+    background-color: rosybrown;
+}
+#dodgerblue{
+    background-color: dodgerblue;
+}
+#red:hover{
+    border-radius: 25%;
+}
+#green:hover, #blue:hover, #brown:hover, #violet:hover, #yellow:hover, #pink:hover, #orange:hover, #darkgolden:hover, #darkslateblue:hover, #darkslategray:hover, #darkcyan:hover, #darkgreen:hover, #maroon:hover, #crimson:hover, #yellowgreen:hover, #chocolate:hover, #teal:hover, #darkmagenta:hover, #chartreuse:hover, #gold:hover, #fuchsia:hover, #aqua:hover, #olivedrab:hover{
+    border-radius: 25%;
+}
+#lightblue:hover, #lightcoral:hover, #lightslategray:hover, #lightseagreen:hover, #lightslategrey:hover, #lightsalmon:hover, #lightgreen:hover, #slateblue:hover, #mediumpurple:hover, #mediumturquoise:hover, #slateblue:hover, #wheat:hover, #thistle:hover, #peru:hover, #palevioletred:hover, #rosybrown:hover, #dodgerblue:hover{
+   border-radius: 50%;
+
+}
+select{
+    position: relative;
+    bottom: 1015px;
+    left: 1520px;
+    padding: 10px;
+    width: 200px;
+    font-size: larger;
+    background-color:moccasin;
+}
